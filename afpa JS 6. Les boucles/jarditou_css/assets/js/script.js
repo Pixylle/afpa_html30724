@@ -131,35 +131,198 @@ while (prenom!=null&&prenom !== "")
  console.log(list)
  console.log("количесво людей в списке:" + i) */
 
+
+
+
+
+
  /*ex2 Boucles
  let N = prompt ("Entrez votre number")
- let list
- while (N>1)
+ let inf = N
+ let list 
+ while (inf>1)
   {
-    N--;
-    list=list +" "+ N
+    inf--;
+    if (list==null)
+        { list= inf;
   }
-  alert("les nombres inférieurs à N:" + list)*/
-
+   else
+    {list=list +" "+ inf
+  }
+}
+  alert("les nombres inférieurs à " + N + ": " + list)
+*/
 
  
   
-  let moy
-  let it=0
-  let somme
+ /*Boucles. ex3 Moyenne
+ let moy
+  let it=1
+  let somme=0
   let numb = prompt ("Entrez nombre")
-  somme=numb
   numb = Number(numb)
-  somme= Number(somme)
-  it++;
-  while (numb!=0&&numb !== "")
-  { numb = prompt ("Entrez nombre")
-    it++;
-    somme==somme+numb
-    moy=somme/it;
-    alert("La somme egale à" + " " + somme + "\n" +"La moyenne egale à" + " " + moy )
-    
+
+  while (numb!=0&&numb!==null)
+  { if (it==1)
+       { 
+      somme+=numb;
+      it++;
+      numb = prompt ("Entrez nombre");
+      numb = Number(numb)
+         }
+
+   else {
+       somme+=numb
+       moy=somme/it;
+       it++;
+       alert("La somme egale à" + " " + somme + " " +"La moyenne egale à" + " " + moy )
+       numb = prompt ("Entrez nombre")
+       numb = Number(numb)
+    } 
 
   }
 
-   
+*/
+
+ /*Boucles. ex4 Tableau
+let x=prompt("Entrez le nombre de multiples")
+N=prompt("Entrez le nombre")
+let  tableau=" ";
+let resul
+for (let i=1; i<=x; i++)
+{ 
+  resul=i*N;
+  tableau+=i + "*" + N + "=" + resul + "\n";
+ 
+}
+
+alert(tableau)  */
+
+/*Boucles. ex4 Voyelles
+let mot=prompt("Entrez votre mot")
+let i=mot.length
+let compteur = 0
+let it = 0 
+let lettre
+for (it=0;it<i;it++)
+    { 
+      lettre=mot.substring(it,it+1)
+     
+      if (lettre=="a"||lettre=="o"||lettre=="e"||lettre=="y"||lettre=="u"||lettre=="i")
+        {
+          compteur++;
+        }
+  }
+alert("Le nombre de voyelles dans ce mot :" + compteur)
+
+
+*/
+
+/*let nom1=prompt("Entrez premier nombre")
+let nom2=prompt("Entrez deuxieme nombre")
+function myf(nom1,nom2)
+{ result=nom1*nom2;
+  
+
+}
+*/
+
+
+
+/*
+function produit(x, y) {
+  let prod = x * y;
+  let cube = x * x * x;
+  
+  afficheImg('src/img/papillon.jpg');
+  document.getElementById("result").innerHTML = "Le cube de" + x + "est égale à"+ cube + "\n" + "Le produit de " + x + "et" + y + " " + "est égale à"+ prod
+
+}
+
+
+function afficheImg(image) {
+  let imageElement = document.getElementById('papillon');
+  
+      imageElement.src = image;
+  
+}
+
+
+let x = prompt("Entrez un nombre");
+let y = prompt("Entrez un multiplicateur");
+
+produit(x, y);
+
+*/
+
+/* ex1 fonctions
+ function produit(x, y) {
+  let prod = x * y;
+  let cube = x * x * x;
+
+ 
+  afficheImg('src/img/papillon.jpg');
+
+  document.getElementById("result").innerHTML = "Le cube de " + x + " est égal à " + cube + "<br>" +
+  "Le produit de " + x + " et " + y + " est égal à " + prod;
+
+ 
+}
+
+
+function afficheImg(image) {
+  let с = document.getElementById('papillon');
+  imageElement.src = image; 
+}
+
+let x = prompt("Entrez un nombre");
+let y = prompt("Entrez un multiplicateur");
+
+produit(x, y);
+*/
+
+/*ex 2 fonctions
+let tap=prompt("Saisissez votre adresse au format " + "\n" + "Robert;dupont ;amiens ;80000");
+
+strtok(tap,";", 3)
+
+function strtok(str1, str2, n)
+{ let donnee=str1.split(str2);
+  let ville=donnee[n-1];
+  document.getElementById("vill").innerHTML = ville;
+  
+}
+
+*/
+
+/*tablaeu
+let n = prompt("Saisissez la taille d'un tableau");
+let str1 = prompt("Saisissez les " + n + " valeurs, séparées par un point-virgule ;");
+function strtok(str1, str2) {
+    return str1.split(str2);
+}
+
+let mytab = strtok(str1, ";");
+
+console.log(mytab);
+let last=" ";
+let count=0;
+while(mytab.length >n)
+{ last += mytab.pop();
+  count++
+}
+
+if (count>0)
+{
+  alert("Vous avez introduit plus de valeurs que nécessaire. Les valeurs" + last + "n'ont pas été introduites dans le tableau.")
+}
+
+else {
+
+}
+
+document.getElementById("vill").innerHTML = mytab;
+*/
+
+
+
