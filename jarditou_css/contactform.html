@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+    <html lang="fr">
+    <head>
+      <meta charset="utf-8">
+      <title>Forme</title>
+    </head>
+
+<body>
+    <form id="form1" method="post" onSubmit="return checkForm(this);">
+   <legend>Vos coordonnées</legend>
+   <p>* Ces zones sont obligatoires pour envoyer le formulaire</p>
+   <label for="soc">Société*</label>   <input required type="text" name="votre nom" id="votrenom"> <br>
+   <label for="personne">Personne à contacter:</label>   <input required type="text" name="personne" id="personne"> <br>
+   <label for="adresse">Adresse de l'entreprise:</label>   <input required type="text" name="adresse" id="adresse"> <br>
+   <label for="cp">Code Postal</label>   <input required type="text" name="cp" id="cp"> <br>
+   <label for="ville">Ville</label>   <input required type="text" name="ville" id="ville"> <br>
+   <label for="mail">E-mail</label>   <input required type="text" name="mail" id="mail"> <br>
+   <label for="tel">Téléphone:</label>   <input required type="text" name="tel" id="tel"> <br>
+   <div style="display: flex;
+   flex-wrap: wrap;
+   justify-content: flex-start;
+   align-items: flex-start;
+   align-content: flex-start;">
+    <div style="margin-right: 5px;">
+
+    <p>Sélectionne l'environnement <br>technique du projet:</p>
+     
+    <select id="env" name="env">
+        <option value="Choisissez" selected disabled>Choisissez</option>
+         <option value="Access">Access</option>
+         <option value="Java">Java</option>
+         <option value="Delphi">Delphi</option>
+         <option value="Windev">Windev</option> 
+         <option value="Visual Basic">Visual Basic</option> 
+         <option value="Power Builder">Power Builder</option> 
+         <option value="Internet">Internet</option> 
+         <option value="Intranet">Intranet</option> 
+         <option value="Windows NT">Windows NT</option> 
+         <option value="Unix">Unix</option> 
+         <option value="SQL Server">SQL Server</option> 
+         <option value="Oracle">Oracle</option> 
+         <option value="Autres">Autres...</option> 
+       </select>   
+    </div>
+
+    <div >  
+ <label for="comments"></label><br>
+   <textarea id="comments" name="comments" rows="6" ></textarea><br><br>
+    </div>
+</div>
+   
+   <div style="padding-top:10px"><input type="submit" value="Envoyer"> 
+    <button>Effacer</button></div>
+    </form>
+
+
+ 
+
+
+<script src="assets/js/script.js"></script>
+</body>
+
+</html>
