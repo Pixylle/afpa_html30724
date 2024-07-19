@@ -92,3 +92,38 @@ function checkForm(f) {
 
 
 
+/*код Ману. Стопорит отправку формы до ее валидации)*/
+/*
+document.addEventListener('DOMContentLoaded', function () {
+    // Получаем элемент формы по его идентификатору
+    const formulaire = document.getElementById('monFormulaire');
+
+    // Добавляем обработчик события 'submit' для формы
+    formulaire.addEventListener('submit', function (e) {
+        // Предотвращаем отправку формы до завершения валидации
+        e.preventDefault();
+
+        // Инициализируем переменную, которая будет отслеживать валидность формы
+        let estValide = true;
+        */
+        // Вызываем функцию валидации для каждого поля и обновляем переменную estValide
+        //estValide &= validerChamp(/^[a-zA-ZÀ-ÿ-]+$/, document.getElementById('nom'), 'Nom invalide.');
+      //  estValide &= validerChamp(/^[a-zA-ZÀ-ÿ-]+$/, document.getElementById('prenom'), 'Prénom invalide.');
+       // estValide &= validerChamp(/^\S+@\S+\.\S+$/, document.getElementById('email'), 'Email invalide.');
+       // estValide &= validerChamp(/^\d{1,3}$/, document.getElementById('age'), 'Age invalide.');
+       // estValide &= validerChamp(/.*/, document.getElementById('sexe'), ''); // Нет специфической регулярки для поля sexe
+       // estValide &= validerChamp(/.+/ , document.getElementById('adresse'), 'Adresse invalide.');
+       // estValide &= validerChamp(/^\d{5}$/, document.getElementById('cp'), 'Code Postal invalide.');
+       // estValide &= validerChamp(/^[a-zA-ZÀ-ÿ-\s]+$/, document.getElementById('ville'), 'Ville invalide.');
+      //  estValide &= validerChamp(/^[a-zA-ZÀ-ÿ-\s]+$/, document.getElementById('pays'), 'Pays invalide.');
+       // estValide &= validerChamp(/.*/, document.getElementById('profession'), ''); // Нет специфической регулярки для поля profession
+
+        // Если все поля валидны, отправляем форму
+     /*   if (estValide) {
+            console.log("Formulaire valide, prêt à être soumis.");
+            formulaire.submit();
+        }
+    });
+});
+
+*/
