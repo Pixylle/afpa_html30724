@@ -1,0 +1,44 @@
+html, body {
+    height: 100%; /* Убедитесь, что body занимает всю высоту */
+    width: 100%;
+    margin: 0; /* Удаление отступов по умолчанию */    
+    justify-content: center; /* Центрирование по горизонтали */
+    align-items: center; /* Центрирование по вертикали */
+    background-image:  url('../../src/img/bg.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; /* Не повторяет изображение */
+    background-attachment: fixed; /* Фиксирует фон при прокрутке */
+}
+.ticket {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    box-sizing: border-box; 
+    margin: 200px;           
+}
+.ticket input, .ticket button {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box; 
+}
+.ticket button {
+    background-color: #da6b40;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.ticket button:hover {
+    background-color: #a14f2e;
+}
+
+#don, #don2, #remise, #port, #total {
+    margin: 0; 
+    padding: 0; 
+}
