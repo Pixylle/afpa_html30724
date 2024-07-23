@@ -1,15 +1,4 @@
-html, body {
-    height: 100%; /* Убедитесь, что body занимает всю высоту */
-    width: 100%;
-    margin: 0; /* Удаление отступов по умолчанию */    
-    justify-content: center; /* Центрирование по горизонтали */
-    align-items: center; /* Центрирование по вертикали */
-    background-image:  url('../../src/img/bg.jpg');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat; /* Не повторяет изображение */
-    background-attachment: fixed; /* Фиксирует фон при прокрутке */
-}
+c
 .ticket {
     background-color: #f9f9f9;
     padding: 20px;
