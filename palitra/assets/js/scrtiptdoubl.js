@@ -1,18 +1,27 @@
-const RangecolR=document.getElementById('RangeRed');
-const RangeValR=document.getElementById('rangeValueR');
-const RangecolG=document.getElementById('RangeGreen');
-const RangeValG=document.getElementById('rangeValueG');
-const RangecolB=document.getElementById('RangeBlue');
-const RangeValB=document.getElementById('rangeValueB');
-const couldiv=document.getElementById('couleur');
+const rangeInputR = document.getElementById('RangeRed');
+const rangeValueR = document.getElementById('rangeValueR');
+const rangeInputG = document.getElementById('RangeGreen');
+const rangeValueG = document.getElementById('rangeValueG');
+const rangeInputB = document.getElementById('RangeBlue');
+const rangeValueB = document.getElementById('rangeValueB');
+const couleurDiv = document.getElementById('couleur');
 
-function Changcol() {
- const r=RangecolR.value; 
- const g=RangecolG.value;
- const b=RangecolB.value;
 
- RangeValR
- 
- couldiv.style.backgroundColor='rgb(${r},'
+function updCol() {
+   const r = rangeInputR.value;
+   const g = rangeInputG.value;
+   const b = rangeInputB.value;
+
+   rangeValueR.textContent = r;
+   rangeValueG.textContent = g;
+   rangeValueB.textContent = b;
+
+   
+   couleurDiv.style.backgroundColor = `rgb(${r}, ${g}, ${b})`;
 }
+
+rangeInputR.addEventListener('input', updCol);
+rangeInputG.addEventListener('input', updCol);
+rangeInputB.addEventListener('input', updCol);
+
 

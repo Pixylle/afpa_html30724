@@ -24,3 +24,11 @@ InpvalB.textContent = b;
 InprangeR.addEventListener('input',Changecol);
 InprangeG.addEventListener('input',Changecol);
 InprangeB.addEventListener('input',Changecol);
+
+
+function Changecoul(butt) {
+   var chang=document.getElementById("couleur");
+  chang.className = "";
+  chang.classList.add(butt.className)
+console.log(chang.className)
+}
