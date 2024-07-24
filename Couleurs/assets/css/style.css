@@ -1,0 +1,54 @@
+button {
+width:100px;
+height: 30px;
+margin: 5px;
+border: none;
+border-radius: 5px;
+
+
+}
+.Glycine {
+    background-color: #d282cd;
+}
+
+
+.Menthe {
+    background-color: #73e0cf;
+}
+
+.Rouge {
+    background-color: #f60700;
+}
+.Bleu {
+    background-color: #119ff7;
+}
+.GreenGrey {
+    background-color: #537067;
+}
+.Archipel {
+    background-color: #009099;
+}
+.Macaron {
+    background-color: #FFB7AE;
+}
+.Galet {
+    background-color: #AEA397;
+}
+.BlueBlanc {
+    background-color: #f5f5fe;
+}
+.Vert {
+    background-color: #1f8d49;
+}
+
+.noir {
+
+    background-color: #000000;
+}
+
+#couleur {
+
+    width:500px;
+    height: 500px;
+    margin: 5px;
+}
