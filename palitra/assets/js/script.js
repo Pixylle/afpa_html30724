@@ -1,4 +1,6 @@
 
+
+
 const InprangeR=document.getElementById("RangeRed");
 const InpvalR=document.getElementById("rangeValueR");
 const InprangeG=document.getElementById("RangeGreen");
@@ -27,8 +29,11 @@ InprangeB.addEventListener('input',Changecol);
 
 
 function Changecoul(butt) {
+  divcoul.style.backgroundColor=''
    var chang=document.getElementById("couleur");
   chang.className = "";
   chang.classList.add(butt.className)
-console.log(chang.className)
+
 }
+
+

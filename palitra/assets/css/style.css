@@ -1,3 +1,8 @@
+.custom-background {
+    /* Начальный стиль, который будет изменяться динамически */
+    background-color: initial;
+}
+
 button {
 width:100px;
 height: 30px;
