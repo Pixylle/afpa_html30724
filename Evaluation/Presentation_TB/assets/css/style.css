@@ -1,0 +1,32 @@
+html, body {
+        height: 100%; /* Убедитесь, что body занимает всю высоту */
+        width: 100%;
+        margin: 0; /* Удаление отступов по умолчанию */    
+        justify-content: center; /* Центрирование по горизонтали */
+        align-items: center; /* Центрирование по вертикали */
+        background-image:  url('/src/img/bg2.jpg');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat; /* Не повторяет изображение */
+        background-attachment: fixed; /* Фиксирует фон при прокрутке */
+}
+
+.less {
+background-color: black;
+opacity: 50%;
+height: 200px;
+margin: 20px;
+color:antiquewhite;
+text-align: center;
+padding-top: 10px;
+}
+
+.less:hover {
+        background-color: black;
+        opacity: 80%;
+        height: 220px;
+        margin: 20px;
+        color:antiquewhite;
+        text-align: center;
+
+}

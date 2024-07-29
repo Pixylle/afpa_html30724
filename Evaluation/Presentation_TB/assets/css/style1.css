@@ -1,0 +1,11 @@
+#resutext {
+padding-top: 20px;
+}
+
+
+.gradient-line {
+        width: 50%;
+        height: 2px;
+        background: linear-gradient(to right, transparent, grey, transparent);
+         margin-top: 20px;  
+}
