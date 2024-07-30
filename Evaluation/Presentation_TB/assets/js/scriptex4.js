@@ -1,6 +1,6 @@
-function calculate() {
-   let pu = document.getElementById("prix").value;
-   let qtecom = document.getElementById("quan").value;
+let pu;
+function calculate(pu) {
+   let qtecom = prompt("Entrez quantité");
 
    function pay(pu, qtecom) {
        let tot = pu * qtecom;
