@@ -9,64 +9,85 @@
 </head>
 <body class="d-flex align-items-center min-vh-100">
     <div class="container">
-      <div class="row justify-content-center mb-3">
-        <div class="col-3 less" ><div class="d-flex justify-content-evenly"><img src="/src/img/shop2.jpg"><p><br>Table de bar<br>"RIO"<br>200€</p></div> <br>
-            <button type="button" class="btn btn-outline-info my-3" onclick="calculate(200)">Acheter</button>
+        <div class="row justify-content-center mb-3">
+            <div class="col-3 less">
+                <div class="d-flex justify-content-evenly">
+                    <img src="/src/img/shop2.jpg">
+                    <p><br>Table de bar<br>"RIO"<br>200€</p>
+                </div>
+                <br> <input type="number" min="1" max="100" value="1">
+                <br>
+                <br>
+                <button type="button" class="btn btn-outline-info my-1" onclick="ajout(this, 200)">Acheter</button>
             </div>
-            <div class="col-3 less" ><div class="d-flex justify-content-evenly"><img src="/src/img/shop1.jpg"><p><br>Table de bar<br>"VASAGLE"<br>240€</p></div> <br>
-            <button type="button" class="btn btn-outline-info" onclick="calculate(240)">Acheter </button>
+            <div class="col-3 less">
+                <div class="d-flex justify-content-evenly">
+                    <img src="/src/img/shop1.jpg">
+                    <p><br>Table de bar<br>"VASAGLE"<br>240€</p>
+                </div>
+                <br>
+                <input type="number" min="1" max="100" value="1">
+                <br>
+                <br>
+                <button type="button" class="btn btn-outline-info" onclick="ajout(this, 240)">Acheter</button>
             </div>
-            <div class="col-3 less" ><div class="d-flex justify-content-evenly"><img src="/src/img/shop3.jpg"><p><br>Ensemble Table  <br>Haute de Bar<br>410€</p></div> <br>
-            <button type="button" class="btn btn-outline-info my-1" onclick="calculate(410)">Acheter</button>
+            <div class="col-3 less">
+                <div class="d-flex justify-content-evenly">
+                    <img src="/src/img/shop3.jpg">
+                    <p><br>Ensemble Table<br>Haute de Bar<br>410€</p>
+                </div>
+                <br> <input type="number" min="1" max="100" value="1">
+                <br>
+                <br>
+                <button type="button" class="btn btn-outline-info my-1" onclick="ajout(this, 410)">Acheter</button>
             </div>
         </div>
-    <div class="row justify-content-center mb-3">
-        <div class="col-3 less" ><div class="d-flex justify-content-evenly"><img src="/src/img/shop4.jpg"><p><br>Ensemble Table  <br>Haute de Bar<br>500€</p></div> <br>
-            <button type="button" class="btn btn-outline-info my-1" onclick="calculate(500)">Acheter</button>
+        <div class="row justify-content-center mb-3">
+            <div class="col-3 less">
+                <div class="d-flex justify-content-evenly">
+                    <img src="/src/img/shop4.jpg">
+                    <p><br>Ensemble Table<br>Haute de Bar<br>500€</p>
+                </div>
+                <br> <input type="number" min="1" max="100" value="1">
+                <br>
+                <br>
+                <button type="button" class="btn btn-outline-info my-1" onclick="ajout(this, 500)">Acheter</button>
             </div>
-            <div class="col-3 less" ><div class="d-flex justify-content-evenly"><img src="/src/img/shop5.jpg"><p><br>Ensemble Table  <br>Haute de Bar<br>620€</p></div> <br>
-            <button type="button" class="btn btn-outline-info my-1" onclick="calculate(620)">Acheter</button>
+            <div class="col-3 less">
+                <div class="d-flex justify-content-evenly">
+                    <img src="/src/img/shop5.jpg">
+                    <p><br>Ensemble Table<br>Haute de Bar<br>620€</p>
+                </div>
+                <br> <input type="number" min="1" max="100" value="1">
+                <br>
+                <br>
+                <button type="button" class="btn btn-outline-info my-1" onclick="ajout(this, 620)">Acheter</button>
             </div>
-            <div class="col-3 less" ><div class="d-flex justify-content-evenly"><img src="/src/img/shop6.jpg"><p><br>Ensemble Table  <br>Haute de Bar<br>700€</p></div> <br>
-            <button type="button" class="btn btn-outline-info my-1" onclick="calculate(700)">Acheter</button>
+            <div class="col-3 less">
+                <div class="d-flex justify-content-evenly">
+                    <img src="/src/img/shop6.jpg">
+                    <p><br>Ensemble Table<br>Haute de Bar<br>700€</p>
+                </div>
+                <br> <input type="number" min="1" max="100" value="1">
+                <br>
+                <br>
+                <button type="button" class="btn btn-outline-info my-1" onclick="ajout(this, 700)">Acheter</button>
             </div>
-    </div> 
-    
-    </div>  
+        </div>
+    </div>
     <div id="panier" class="pan col-4">
         <p>Panier</p>
-        <div class="ticket col-md-4 ">
-            <p> </p>
+        <div class="ticket col-md-4">
+            <p></p>
             <p>Total prix: </p>
-           
             <div>
-            
                 <p id="remise"></p>
                 <p id="port"></p>
                 <p id="total"></p>
             </div>
         </div>
-            </div>
-    
-    <!--<Section class="d-flex justify-content-end align-items-center">
-        <div class="ticket col-md-4 ">
-            <p>Entrez le prix:</p>
-            <input id="prix" type="number">
-            <p>Entrez la quantité:</p>
-            <input id="quan" type="number">
-            <br>
-            <button onclick="calculate()">Calculer</button>
-            
-        
-            <div>
-            
-                <p id="remise"></p>
-                <p id="port"></p>
-                <p id="total"></p>
-            </div>
-        </div>
-    </Section>-->
-    
+    </div>
     <script src="assets/js/scriptex4.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-    </html>
+</body>
+</html>

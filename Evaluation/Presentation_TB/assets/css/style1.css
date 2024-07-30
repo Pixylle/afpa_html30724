@@ -9,3 +9,14 @@ padding-top: 20px;
         background: linear-gradient(to right, transparent, grey, transparent);
          margin-top: 20px;  
 }
+
+
+.navbar-custom {
+    background-color: #343a40; 
+}
+.navbar-custom .nav-link {
+    color: white; 
+}
+.navbar-custom .nav-link:hover {
+    color: #adb5bd; 
+}

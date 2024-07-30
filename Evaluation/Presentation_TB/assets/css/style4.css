@@ -11,7 +11,7 @@ html, body {
 .less {
 background-color: rgb(255, 255, 255);
 opacity: 50%;
-height: 220px;
+height: 250px;
 margin: 10px;
 color:rgb(34, 32, 30);
 text-align: center;
@@ -20,7 +20,7 @@ padding-top: 10px;
 
 .less:hover {
     opacity: 80%;
-    height: 220px;
+    height: 260px;
     margin: 20px;
     color:rgb(15, 15, 15);
     text-align: center;
