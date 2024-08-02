@@ -11,26 +11,40 @@
     <div class="container">
         <div class="row justify-content-center mb-3">
             <div class="col-3 less">
-                <div class="d-flex justify-content-evenly">
-                    <img src="/src/img/shop2.jpg">
-                    <p><br>Table de bar<br>"RIO"<br>200€</p>
+                <div class="d-flex flex-column align-items-start">
+                    <div class="d-flex">
+                        <img src="/src/img/shop2.jpg" class="img-fluid me-3">
+                        <div>
+                            <p class="mb-0">Table de bar "RIO"</p>
+                            <p class="mb-2">200€</p>
+                        </div>
+                    </div>
+                    <div class="w-100 d-flex flex-column align-items-center mt-3">
+                        <input type="number" min="1" max="100" value="1" class="form-control input-sm mb-2">
+                        <button type="button" class="btn btn-outline-info btn-sm" onclick="ajout(this, 200)">Acheter</button>
+                    </div>
                 </div>
-                <br> <input type="number" min="1" max="100" value="1">
-                <br>
-                <br>
-                <button type="button" class="btn btn-outline-info my-1" onclick="ajout(this, 200)">Acheter</button>
             </div>
+            
             <div class="col-3 less">
-                <div class="d-flex justify-content-evenly">
-                    <img src="/src/img/shop1.jpg">
-                    <p><br>Table de bar<br>"VASAGLE"<br>240€</p>
+                <div class="d-flex flex-column align-items-center">
+                    <div class="d-flex align-items-start w-100 mb-3">
+                        <img src="/src/img/shop1.jpg" class="product-img me-3">
+                        <div class="text-container flex-grow-1">
+                            <p class="product-name mb-0">Table de bar "VASAGLE"</p>
+                            <p class="product-price mb-2">240€</p>
+                        </div>
+                    </div>
+                    <div class="d-flex flex-column align-items-center w-100">
+                        <input type="number" min="1" max="100" value="1" class="form-control input-sm mb-2 product-quantity">
+                        <button type="button" class="btn btn-outline-info btn-sm" onclick="ajout(this, 240)">Acheter</button>
+                    </div>
                 </div>
-                <br>
-                <input type="number" min="1" max="100" value="1">
-                <br>
-                <br>
-                <button type="button" class="btn btn-outline-info" onclick="ajout(this, 240)">Acheter</button>
             </div>
+            
+            
+            
+            
             <div class="col-3 less">
                 <div class="d-flex justify-content-evenly">
                     <img src="/src/img/shop3.jpg">

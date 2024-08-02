@@ -4,28 +4,27 @@ html, body {
     margin: 0;    
     justify-content: center; 
     align-items: center; 
-    background: rgb(141,177,181) ;
-   
+    background: rgb(141,177,181);
 }
 
 .less {
-background-color: rgb(255, 255, 255);
-opacity: 50%;
-height: 250px;
-margin: 10px;
-color:rgb(34, 32, 30);
-text-align: center;
-padding-top: 10px;
+    background-color: rgb(255, 255, 255);
+    opacity: 50%;
+    height: 250px;
+    margin: 10px;
+    color: rgb(34, 32, 30);
+    text-align: center;
+    padding: 10px;
+    box-sizing: border-box; /* Включаем отступы и границы в расчет ширины и высоты */
 }
 
 .less:hover {
     opacity: 80%;
     height: 260px;
     margin: 20px;
-    color:rgb(15, 15, 15);
-    text-align: center;
-
+    color: rgb(15, 15, 15);
 }
+
 .container img {
     width: 35%;
     padding: 5px;
@@ -35,8 +34,44 @@ padding-top: 10px;
     background-color: rgb(255, 255, 255);
     height: 50%;
     margin: 30px;
-    color:rgb(34, 32, 30);
+    color: rgb(34, 32, 30);
     text-align: center;
-    
-    }
+}
 
+.less img.product-img {
+    width: 100px;
+    height: auto;
+}
+
+.less p {
+    margin: 0;
+    word-break: break-word;
+}
+
+.less .product-quantity {
+    width: 50%;
+}
+
+.less .btn-sm {
+    width: 50%;
+}
+
+.less .d-flex {
+    gap: 1rem;
+}
+
+.less .w-100 {
+    margin-top: 1rem;
+}
+
+.less .flex-grow-1 {
+    flex-grow: 1;
+}
+
+.text-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    word-break: break-word;
+    max-width: calc(100% - 110px); /* Учитываем ширину изображения и отступы */
+}

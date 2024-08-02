@@ -1,0 +1,35 @@
+html, body {
+    height: 100%; 
+    width: 100%;
+    margin: 0;    
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    background: rgb(141,177,181);
+}
+
+.table-container {
+    width: 20%;
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.table {
+    display: grid;
+    grid-template-columns: repeat(16, 1fr);
+    grid-template-rows: repeat(16, 1fr);
+    width: 100%;
+    height: 100%;
+}
+
+.row {
+    display: contents;
+}
+
+.cell {
+    border: 1px solid black;
+    width: 100%;
+    height: 100%;
+}
