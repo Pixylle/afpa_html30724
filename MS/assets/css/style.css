@@ -1,0 +1,116 @@
+.navbar-custom {
+    background-color: #1d1c1c; 
+}
+.navbar-custom .nav-link {
+    color: white; 
+}
+.navbar-custom .nav-link:hover {
+    color: #adb5bd; 
+}
+
+.logo img{
+ width: 250px;
+}
+
+
+.promo {
+    background-image:  url('../../src/img/fosyyyy.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 40vh; /* 50% от высоты окна браузера */
+}
+
+.cath {
+ height: 250px;
+ width: 400px;
+ margin: 3px 10px;
+ border-radius: 5px;
+ background-color: #1d1c1c;
+}
+.un {
+    background-image:  url('../../src/img/princ.jpg');
+    
+ 
+}
+
+.deux {
+    background-image:  url('../../src/img/sushi.jpg');
+    
+ 
+}
+
+.quatre {
+    background-image:  url('../../src/img/menu-pizza.jpg');
+    
+ 
+}
+
+.six {
+    background-image:  url('../../src/img/dessert.jpg');
+    
+ 
+}
+
+.trois {
+    background-image:  url('../../src/img/grill.jpg');
+    
+ 
+}
+
+.cinq {
+    background-image:  url('../../src/img/veget.jpeg');
+    
+ 
+}
+
+.btn-outline-success {
+    border-color: white;
+    color: white; 
+}
+
+.btn-outline-success:hover {
+    border-color: white;
+    background-color: antiquewhite;
+    color: rgb(34, 31, 31); 
+}
+
+.cath {
+    position: relative; /* Ограничиваем область действия псевдоэлемента внутри плитки */
+    height: 250px;
+    width: 400px;
+    margin: 3px 10px;
+    border-radius: 5px;
+    color: white; /* Белый текст для контраста */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    overflow: hidden; /* Обрезаем любые выходящие за пределы элементы */
+}
+
+.cath::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Полупрозрачный черный слой */
+    z-index: 1; /* Помещаем затемнение над изображением */
+    border-radius: 5px; /* Закругляем углы так же, как у родителя */
+}
+
+.cath p {
+    position: relative;
+    z-index: 2; /* Помещаем текст поверх затемнения */
+    margin: 0;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.un, .deux, .trois, .quatre, .cinq, .six {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
