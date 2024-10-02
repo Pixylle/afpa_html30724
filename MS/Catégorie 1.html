@@ -4,173 +4,259 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gourmango</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/css/stylec1.css">
 </head>
 <body class="d-flex flex-column min-vh-100">
   
-  <section class="promo">
-    <nav class="navbar navbar-expand-lg navbar-custom w-100">
-      <div class="container-fluid">
-          <div class="logo"><img src="src/img/logo.png" alt="Logo"></div>
-      
-          <ul class="navbar-nav ms-auto">
-            <li class="nav-item">
-              <a class="nav-link" href="#">Accueil</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="Exercice2.html">Catégorie</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="Exercice3.html">Plats</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="Exercice4.html">Contact</a>
-            </li>
-          </ul>
-      </div>
-    </nav>
-    <div class="container mt-5">
-      <form class="d-flex" role="search">
-          <input class="form-control me-2" type="search" placeholder="Rechercher" aria-label="Search">
-          <button class="btn btn-outline-success" type="submit">Recherche</button>
-      </form>
+    <section class="promo">
+        <nav class="navbar navbar-expand-lg navbar-custom w-100">
+            <div class="container-fluid">
+                <div class="logo"><img src="src/img/logo.png" alt="Logo"></div>
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Accueil</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Exercice2.html">Catégorie</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Exercice3.html">Plats</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Exercice4.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <div class="container mt-5">
+            <form class="d-flex" role="search">
+                <input class="form-control me-2" type="search" placeholder="Rechercher" aria-label="Search">
+                <button class="btn btn-outline-success" type="submit">Recherche</button>
+            </form>
+        </div>
+    </section>
+
+    <p></p>
+    <h2>Plats principaux</h2>
+
+    <div id="carouselExample" class="carousel slide">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <div class="container">
+                    <div class="row justify-content-center mb-3">
+                        <div class="card">
+                            <div class="card-inner">
+                                <div class="card-front" style="background-image: url(/src/img/pp1.jpeg);">
+                                    <p>Bœuf Wellington </p>
+                                </div>
+                                <div class="card-back">
+                                    <p>Un filet de bœuf tendre enveloppé dans une pâte feuilletée avec un pâté de champignons et des herbes aromatiques, cuit au four jusqu'à une perfection dorée.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-inner">
+                                <div class="card-front" style="background-image: url(/src/img/PP2.jpg);">
+                                    <p>Canard à l'orange </p>
+                                </div>
+                                <div class="card-back">
+                                    <p> Un canard rôti, servi avec une sauce sucrée et acidulée à base de jus d'orange frais, offrant une combinaison exquise de saveurs.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-inner">
+                                <div class="card-front" style="background-image: url(/src/img/PP3.jpg);">
+                                    <p>Saumon grillé au beurre citronné et aux herbes</p>
+                                </div>
+                                <div class="card-back">
+                                    <p>Des pavés de saumon grillés à la perfection, accompagnés d'un beurre citronné parfumé aux herbes fraîches.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row justify-content-center mb-3">
+                        <div class="card">
+                            <div class="card-inner">
+                                <div class="card-front" style="background-image: url(/src/img/PP4.jpg);">
+                                    <p>Agneau rôti au romarin et à l'ail -</p>
+                                </div>
+                                <div class="card-back">
+                                    <p>Un gigot d'agneau mariné et rôti avec du romarin et de l'ail, servi avec une purée de pommes de terre crémeuse.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-inner">
+                                <div class="card-front" style="background-image: url(/src/img/PP5.png);">
+                                    <p>Front Side</p>
+                                </div>
+                                <div class="card-back">
+                                    <p>Back Side</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-inner">
+                                <div class="card-front" style="background-image: url(/src/img/PP6.jpg);">
+                                    <p>Front Side</p>
+                                </div>
+                                <div class="card-back">
+                                    <p>Back Side</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="container">
+                    <div class="row justify-content-center mb-3">
+                        <div class="card">
+                            <div class="card-inner">
+                                <div class="card-front" style="background-image: url(/src/img/pp1.jpeg);">
+                                    <p>Bœuf Wellington </p>
+                                </div>
+                                <div class="card-back">
+                                    <p>Un filet de bœuf tendre enveloppé dans une pâte feuilletée avec un pâté de champignons et des herbes aromatiques, cuit au four jusqu'à une perfection dorée.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-inner">
+                                <div class="card-front" style="background-image: url(/src/img/PP2.jpg);">
+                                    <p>Canard à l'orange </p>
+                                </div>
+                                <div class="card-back">
+                                    <p> Un canard rôti, servi avec une sauce sucrée и acidulée à base de jus d'orange frais, offrant une combinaison exquise de saveurs.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-inner">
+                                <div class="card-front" style="background-image: url(/src/img/PP3.jpg);">
+                                    <p>Saumon grillé au beurre citronné et aux herbes</p>
+                                </div>
+                                <div class="card-back">
+                                    <p>Des pavés de saumon grillés à la perfection, accompagnés d'un beurre citronné parfumé aux herbes fraîches.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row justify-content-center mb-3">
+                        <div class="card">
+                            <div class="card-inner">
+                                <div class="card-front" style="background-image: url(/src/img/PP4.jpg);">
+                                    <p>Agneau rôti au romarin et à l'ail -</p>
+                                </div>
+                                <div class="card-back">
+                                    <p>Un gigot d'agneau mariné et rôti avec du romarin и de l'ail, servi avec une purée de pommes de terre crémeuse.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-inner">
+                                <div class="card-front" style="background-image: url(/src/img/PP5.png);">
+                                    <p>Plat 1</p>
+                                </div>
+                                <div class="card-back">
+                                    <p>Back Side</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-inner">
+                                <div class="card-front" style="background-image: url(/src/img/PP6.jpg);">
+                                    <p>Plat 2</p>
+                                </div>
+                                <div class="card-back">
+                                    <p>Back Side</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="container">
+                    <div class="row justify-content-center mb-3">
+                        <div class="card">
+                            <div class="card-inner">
+                                <div class="card-front" style="background-image: url(/src/img/pp1.jpeg);">
+                                    <p>Plat 3</p>
+                                </div>
+                                <div class="card-back">
+                                    <p>Un filet de bœuf tendre enveloppé dans une pâte feuilletée avec un pâté de champignons et des herbes aromatiques, cuit au four jusqu'à une perfection dorée.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-inner">
+                                <div class="card-front" style="background-image: url(/src/img/PP2.jpg);">
+                                    <p>Plat 4 </p>
+                                </div>
+                                <div class="card-back">
+                                    <p> Un canard rôti, servi avec une sauce sucrée и acidulée à base de jus d'orange frais, offrant une combinaison exquise de saveurs.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-inner">
+                                <div class="card-front" style="background-image: url(/src/img/PP3.jpg);">
+                                    <p>Plat 5</p>
+                                </div>
+                                <div class="card-back">
+                                    <p>Des pavés de saumon grillés à la perfection, accompagnés d'un beurre citronné parfumé aux herbes fraîches.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row justify-content-center mb-3">
+                        <div class="card">
+                            <div class="card-inner">
+                                <div class="card-front" style="background-image: url(/src/img/PP4.jpg);">
+                                    <p>Plat 6 -</p>
+                                </div>
+                                <div class="card-back">
+                                    <p>Un gigot d'agneau mariné и rôti avec du romarin и de l'ail, servi avec une purée de pommes de terre crémeuse.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-inner">
+                                <div class="card-front" style="background-image: url(/src/img/PP5.png);">
+                                    <p>Plat 7</p>
+                                </div>
+                                <div class="card-back">
+                                    <p>Back Side</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-inner">
+                                <div class="card-front" style="background-image: url(/src/img/PP6.jpg);">
+                                    <p>Plat 8</p>
+                                </div>
+                                <div class="card-back">
+                                    <p>Back Side</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
     </div>
-  </section>
 
-  <section class="card-area">
-    <!-- Card: Plat 1 -->
-    <section class="card-section">
-        <div class="card">
-            <div class="flip-card">
-                <div class="flip-card__container">
-                    <div class="card-front">
-                        <div class="card-front__tp card-front__tp--plat1">
-                            <h2 class="card-front__heading">
-                                Plat N1
-                            </h2>
-                            <p class="card-front__text-price">
-                                29$
-                            </p>
-                        </div>
-
-                        <div class="card-front__bt">
-                            <p class="card-front__text-view card-front__text-view--plat1">
-                                View me
-                            </p>
-                        </div>
-                    </div>
-                    <div class="card-back">
-                        <video class="video__container" autoplay muted loop>
-                            <source class="video__media" src="https://player.vimeo.com/external/370331493.sd.mp4?s=e90dcaba73c19e0e36f03406b47bbd6992dd6c1c&profile_id=139&oauth2_token_id=57447761" type="video/mp4">
-                        </video>
-                    </div>
-                </div>
-            </div>
-
-            <div class="inside-page">
-                <div class="inside-page__container">
-                    <h3 class="inside-page__heading inside-page__heading--plat1">
-                        Delicious urban dish
-                    </h3>
-                    <p class="inside-page__text">
-                       This dish captures the essence of city life, vibrant and full of flavor.
-                    </p>
-                    <a href="#" class="inside-page__btn inside-page__btn--plat1">View details</a>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Card: Plat 2 -->
-    <section class="card-section">
-        <div class="card">
-            <div class="flip-card">
-                <div class="flip-card__container">
-                    <div class="card-front">
-                        <div class="card-front__tp card-front__tp--plat2">
-                            <h2 class="card-front__heading">
-                                Plat N2
-                            </h2>
-                            <p class="card-front__text-price">
-                                35$
-                            </p>
-                        </div>
-
-                        <div class="card-front__bt">
-                            <p class="card-front__text-view card-front__text-view--plat2">
-                                View me
-                            </p>
-                        </div>
-                    </div>
-
-                    <div class="card-back">
-                        <video class="video__container" autoplay muted loop>
-                            <source class="video__media" src="https://player.vimeo.com/external/195913085.sd.mp4?s=7c12f7a83de62a8900fd2ae049297070b9bc8a54&profile_id=164&oauth2_token_id=574477611" type="video/mp4">
-                        </video>
-                    </div>
-                </div>
-            </div>
-
-            <div class="inside-page">
-                <div class="inside-page__container">
-                    <h3 class="inside-page__heading inside-page__heading--plat2">
-                        Exquisite snowy dish
-                    </h3>
-                    <p class="inside-page__text">
-                       Enjoy the cool flavors of this dish, perfect for winter lovers.
-                    </p>
-                    <a href="#" class="inside-page__btn inside-page__btn--plat2">View details</a>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Card: Plat 3 -->
-    <section class="card-section">
-        <div class="card">
-            <div class="flip-card">
-                <div class="flip-card__container">
-                    <div class="card-front">
-                        <div class="card-front__tp card-front__tp--plat3">
-                            <h2 class="card-front__heading">
-                                Plat N3
-                            </h2>
-                            <p class="card-front__text-price">
-                                40$
-                            </p>
-                        </div>
-
-                        <div class="card-front__bt">
-                            <p class="card-front__text-view card-front__text-view--plat3">
-                                View me
-                            </p>
-                        </div>
-                    </div>
-
-                    <div class="card-back">
-                        <video class="video__container" autoplay muted loop>
-                            <source class="video__media" src="https://player.vimeo.com/external/370331493.sd.mp4?s=e90dcaba73c19e0e36f03406b47bbd6992dd6c1c&profile_id=139&oauth2_token_id=57447761" type="video/mp4">
-                        </video>
-                    </div>
-                </div>
-            </div>
-
-            <div class="inside-page">
-                <div class="inside-page__container">
-                    <h3 class="inside-page__heading inside-page__heading--plat3">
-                        Tropical delight dish
-                    </h3>
-                    <p class="inside-page__text">
-                       Feel the heat with this tropical-inspired dish, bursting with flavor.
-                    </p>
-                    <a href="#" class="inside-page__btn inside-page__btn--plat3">View details</a>
-                </div>
-            </div>
-        </div>
-    </section>
-
-  </section>
-
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>

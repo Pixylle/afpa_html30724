@@ -4,7 +4,7 @@ html, body {
         margin: 0; /* Удаление отступов по умолчанию */    
         justify-content: center; /* Центрирование по горизонтали */
         align-items: center; /* Центрирование по вертикали */
-        background-image:  url('/src/img/bg2.jpg');
+        background-image:  url('../../src/img/bg2.jpg');
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat; /* Не повторяет изображение */
