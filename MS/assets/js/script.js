@@ -55,3 +55,39 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     });
 });
+
+function checkForm(f) {
+    const emailRegex = /^[a-z0-9.-]+@[a-z0-9.-]{2,}\.[a-z]{2,4}$/;
+    const postalCodeRegex = /^\d{5}$/;
+    const textRegex =/^[a-z-]{1,}$/i;
+
+
+    const email = f.elements['email'].value;
+    const postalCode = f.elements['CP'].value;
+    const ville = f.elements['Ville'].value;
+    const personne = f.elements['votrenom'].value;
+
+   
+    if (!emailRegex.test(email)) {
+        alert("Email non valide");
+        return false;
+    }
+    if (!postalCodeRegex.test(postalCode)) {
+        alert("Le code postal doit comporter 5 chiffres.");
+        return false;
+    }
+
+    if (!textRegex.test(ville)) {
+        alert("Saisir la valeur correcte");
+        return false;
+    }
+
+    if (!textRegex.test(personne)) {
+        alert("Saisir la valeur correcte");
+        return false;
+    }
+
+
+    return true;
+}
+
