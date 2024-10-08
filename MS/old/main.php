@@ -9,16 +9,17 @@
 </head>
 <body>
     <header>
-        <div class="overlay">    
+        <div class="overlay"></div>
+    
         <video playsinline autoplay="autoplay" muted="muted" loop="loop">
           <source src="src/img/Video4.mp4" type="video/mp4">
         </video>
-        </div>      
-        <div class="">
-          <div class="cont d-flex h-100 text-center align-items-center">
+      
+        <div class="container h-100">
+          <div class="d-flex h-100 text-center align-items-center">
             <div class="w-100 text-white">
-                <div class="adress d-flex justify-content-between">
-                    <div class="">+4733378901  Email: food@restan.com</div>
+                <div class="cont d-flex justify-content-between">
+                    <div>+4733378901  Email: food@restan.com</div>
                     <div>175 10h Street, Office 375 Berlin, De 21562</div>
                 </div>
                 <nav class="navbar navbar-expand-lg navbar-dark">
@@ -29,35 +30,29 @@
                         <div class="collapse navbar-collapse" id="navbarSupportedContent">
                             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                                 <li class="nav-item">
-                                    <a class="nav-link" aria-current="page" href="#">HOME</a>
+                                    <a class="nav-link active" aria-current="page" href="#">Главная</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#">TOUS LES PLATS</a>
+                                    <a class="nav-link" href="#">Ссылка</a>
                                 </li>
                                 <li class="nav-item dropdown">
                                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                        CATHÉGORIES
+                                        CATÉGORIE
                                     </a>
                                     <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                        <li><a class="dropdown-item" href="Platpprinc.php">Plats principaux</a></li>
+                                        <li><a class="dropdown-item" href="#">Plats principaux</a></li>
                                         <li><a class="dropdown-item" href="#">Cuisine asiatique</a></li>
-                                        <li><a class="dropdown-item" href="#">Grillades</a></li> 
-                                        <li><a class="dropdown-item" href="#">Pizzas</a></li>
-                                        <li><a class="dropdown-item" href="#">Végétarien</a></li>
-                                        <li><a class="dropdown-item" href="#">Desserts</a></li>
-                                        <li><a class="dropdown-item" href="#">Boissons</a></li>
-                                        <li><a class="dropdown-item" href="#">Entrées</a></li>
-                                        <li><a class="dropdown-item" href="#">Salades</a></li>
+                                        <li><hr class="dropdown-divider"></li>
+                                        <li><a class="dropdown-item" href="#">Что-то еще здесь</a></li>
                                     </ul>
                                 </li>
                             </ul>
-                            
-                        </div>
-                        <form class="d-flex">
+                            <form class="d-flex">
                                 <input class="form-control me-2" type="search" placeholder="Recherche" aria-label="Recherche">
                                 <button class="btn btn-outline-success " type="submit">
                                     Rechercher</button>
                             </form>
+                        </div>
                     </div>
                 </nav>
                 
@@ -87,7 +82,7 @@
             </div>
             <div class="row justify-content-center mb-3">
                 <div class="col-3 cath un">
-                   <a href="/Platpprinc.php"><p>Plats principaux</p></a>
+                   <a href="/Platpprinc.html"><p>Plats principaux</p></a>
                 </div>
                 <div class="col-3 deux cath">
                     <p>Cuisine asiatique</p>

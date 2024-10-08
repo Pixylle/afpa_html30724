@@ -4,8 +4,8 @@
     <title>Gourmango</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="assets/css/style3.css">
-    <section class="" id="promocat">
-        <div class="cont d-flex justify-content-between">
+    <section id="promocat">
+        <div class="adress d-flex justify-content-between">
             <div>+4733378901  Email: food@restan.com</div>
             <div>175 10h Street, Office 375 Berlin, De 21562</div>
         </div>
@@ -17,20 +17,25 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                            <a class="nav-link active" aria-current="page" href="#">HOME</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Ссылка</a>
+                            <a class="nav-link" href="#">TOUS LES PLATS</a>
                         </li>
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                Cathégories
+                            CATHÉGORIES
                             </a>
                             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <li><a class="dropdown-item" href="#">Действие</a></li>
-                                <li><a class="dropdown-item" href="#">Другое действие</a></li>
-                                <li><hr class="dropdown-divider"></li>
-                                <li><a class="dropdown-item" href="#">Что-то еще здесь</a></li>
+                            <li><a class="dropdown-item" href="#">Plats principaux</a></li>
+                                        <li><a class="dropdown-item" href="#">Cuisine asiatique</a></li>
+                                        <li><a class="dropdown-item" href="#">Grillades</a></li> 
+                                        <li><a class="dropdown-item" href="#">Pizzas</a></li>
+                                        <li><a class="dropdown-item" href="#">Végétarien</a></li>
+                                        <li><a class="dropdown-item" href="#">Desserts</a></li>
+                                        <li><a class="dropdown-item" href="#">Boissons</a></li>
+                                        <li><a class="dropdown-item" href="#">Entrées</a></li>
+                                        <li><a class="dropdown-item" href="#">Salades</a></li>
                             </ul>
                         </li>
                     </ul>
