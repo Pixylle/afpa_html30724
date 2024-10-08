@@ -18,23 +18,6 @@
                     <input type="text" id="votreprénom" name="votreprénom" required>
                 </div>
         
-
-               <div class="form-group">
-                <label>Sexe*</label>
-                <div>
-                    <label>
-                        <input type="radio" name="Sexe" value="male" required> Féminin
-                    </label>
-                    <label>
-                        <input type="radio" name="Sexe" value="female" required> Masculin
-                    </label>
-            
-                </div>
-            </div>
-            <div class="form-group">
-                <label for="date">Date de naissance* :</label>
-                <input type="date" id="date" name="date" required>
-            </div>
             <div class="form-group">
                 <label for="CP">Code Postal</label>
                 <input type="text" id="CP" name="CP" required>
@@ -55,32 +38,9 @@
             
             </fieldset>
 
-            <fieldset>
-                <legend>Votre demande</legend>
-                <div class="form-group">
-                    <label for="demande">Sujet*</label>
-                    <select id="demande" name="demande">
-                        <option value="Veuillez séléctionner un sujet" disabled required>Veuillez séléctionner un sujet</option>
-                        <option value="Mes commandes">Mes commandes</option>
-                        <option value="Question sur un produit">Question sur un produit</option>
-                        <option value="Réclamation">Réclamation</option>
-                        <option value="Autres">Autres</option> 
-                    </select>
-                </div>
-                <div class="form-group">
-                    <label>
-                        <input type="checkbox" name="agree" value="oui" required> J'accepte le traitement informatique de ce formulaire
-                    </label>
-                </div>
-            </fieldset>
+           
 
-            <fieldset>
-                <legend>Message</legend>
-                <div class="form-group">
-                    <label for="message">Your Message</label>
-                    <textarea id="message" name="message" rows="5" required></textarea>
-                </div>
-            </fieldset>
+           
 
             <div class="form-group buttons">
                 <button type="submit" class="btn btn-primary">Submit</button>
